@@ -1,0 +1,52 @@
+/*
+Mick Welisevich
+5 Sept 2021
+Module 5 Assignment 2
+*/
+
+h1, h3, figure {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(203, 48, 97)
+}
+
+.image-gallery{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+}
+
+#img1 {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#img2 {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+#img3 {
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.coverImage{
+    border: 1px solid rgb(203, 48, 97);
+    border-radius: 15px;
+    padding: 3px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size:0.75em;
+}
