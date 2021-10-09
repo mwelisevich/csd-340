@@ -1,0 +1,156 @@
+<!DOCtype html>
+<html lang = "en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <figure class="mick">
+            <img src="images/mick.jpeg" alt="Mick">
+            <figcaption>Mick</figcaption>
+        </figure>
+        <div id="title">CSD 340 Web Development with HTML and CSS</div>
+    </header>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Work History</a>
+    </nav>
+    <div class="container">
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-title">Magic The Gathering</div>
+                    <figure class="hobby">
+                        <img src="images/mtg.jpeg" alt="Magic The Gathering Card">
+                        <figcaption>Magic The Gathering Card</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        Mick has loved board games since he was a child. His sophomore year of college he discovered
+                        trading card games and fell in love. Starting with Pokemon, he began to play other games like 
+                        Yu-Gi-Oh and eventually, Magic The Gathering. He loves the way one can build their deck to 
+                        play exactly how they want. Furthermore, the fact that it is a social event of playing with
+                        others is a huge draw to mick and Trading Card Games like Magic.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Minnesota Vikings</div>
+                    <figure class="hobby">
+                        <img src="images/vikes.jpeg" alt="Minnesota Vikings Logo">
+                        <figcaption>Minnesota Vikings Logo</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        When Mick was 16 he signed up to play football at his high school. At nearly the same time he
+                        became obsessed with his hometown team, The Minnesota Vikings. Growing up in St. Paul, Minnesota,
+                        the Vikings were always nearby. He has watched every Vikings game since 2010. Even when deployed, Mick
+                        always finds a way to watch his Vikings win (or more likely, lose).    
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Music</div>
+                    <figure class="hobby">
+                        <img src="images/queenii.jpeg" alt="Music Note">
+                        <figcaption>Queen</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        Mick has a deep love for music, spanning numerous genres. He grew up listening to one of his 
+                        dad's favorites, Led Zeppelin. While he loves modern music, his favorite band is Queen, with his
+                        favorite song being Fat Bottomed Girls by Queen. Mick has been to countless concerts and seen artists
+                        ranging from Mumford and Sons to Kanye West. Unfortunately he will never be able to see Queen live 
+                        in concert.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="experience" id="experience">
+            <h1>Work History</h1>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-title">Family Video</div>
+                    <figure class="experience">
+                        <img src="images/fv.jpeg" alt="Family Video">
+                        <figcaption>Family Video</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        As a deep lover of movies, it made sense to Mick that he would get a job at a video rental store.
+                        At the beginning of his Freshman Year of college Mick was hired to work at Family Video, the last 
+                        of the video rental stores. He would eventually become that store's manager and set numerous individual
+                        and store sales records before ultimately leaving to enlist in the United States Air Force.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Caribou Coffee</div>
+                    <figure class="experience">
+                        <img src="images/cc.jpeg" alt="Caribou Coffee">
+                        <figcaption>Caribou Coffee</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        If there's one thing Mick loves as much as movies it's coffee. The moment he found out a Caribou
+                        Coffee would be opening in his college town of Marshall, Minnesota, he applied. Eventually being promoted to 
+                        shift supervisor, while still working at Family Video, Mick and his wife both loved their time working at the
+                        local Caribou Coffee. 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">United States Air Force</div>
+                    <figure class="experience">
+                        <img src="images/usaf.jpeg" alt="United States Air Force">
+                        <figcaption>United States Air Force</figcaption>
+                    </figure>
+                    <div class="card-content">
+                        After spinning his wheels in college, and ultimately caring more about the jobs he got to pay for college
+                        Mick took the second largest leap of his life (the first was marrying his wife) and enlisted in the 
+                        United States Air Force. Joining the Air Force might have been the best choice of his life, again, outside
+                        of marrying Taylor. He has already traveled more in the past four years than the previous 23, and there's no 
+                        sign of slowing down. Additionally, joining the Air Force is what lead him to his current academic success.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="card full-width">
+                <div class="card-title">
+                    Contact Form
+                </div>
+
+                <div class="card-content">
+
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id ="copyright">Copyright 2021-Welisevich</p>
+        <p id="link"><a href="../index.html">Back To Landing Page</a></p>
+    </footer>
+</body>
+</html>

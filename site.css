@@ -15,17 +15,19 @@ body {
 
 h1, h2, h3, h4 {
     background-color: rgb(203, 48, 97);
-    color: #eeeeee;
-    border: 1px solid #D6A800;
+    color: white;
+    border: 1px solid rgb(244, 125, 163);
     padding: 10px;
 }
+
+
 
 a {
     color: rgb(203, 48, 97);
 }
 
 a:hover {
-    background-color: #D6A800;
+    background-color: rgb(244, 125, 163);
     color: rgb(203, 48, 97);
 }
 
